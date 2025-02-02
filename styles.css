@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #F9F9F9;  /* Fond blanc cassé */
+    color: #333; /* Texte sombre pour la lisibilité */
 }
 
 header {
@@ -28,6 +28,11 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+h1, h2, h3 {
+    color: #FFD700;  /* Or pour les titres */
+    font-family: 'Georgia', serif;  /* Police plus sophistiquée */
+  }
 
 section {
     padding: 20px;
@@ -56,14 +61,15 @@ form input, form textarea {
 }
 
 form button {
-    padding: 10px;
-    background: #333;
+    padding: 10px 20px;
+    background-color: #F8D7D1;  /* Rose poudré */
     color: #fff;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
     cursor: pointer;
 }
 
 form button:hover {
-    background: #555;
+    background-color: #FF6F61;  /* Changement vers un rose vif */
 }
