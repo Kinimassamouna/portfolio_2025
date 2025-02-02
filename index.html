@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Massamouna Kini</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis Massamouna Kini, étudiante en deuxième année de BTS SIO option SLAM, passionnée par le développement web et les bases de données.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="project">
+            <h3>Gestion des stocks</h3>
+            <p>Projet réalisé en Symfony avec une base de données SQL.</p>
+        </div>
+        <div class="project">
+            <h3>Gestionnaire de tâches</h3>
+            <p>Application mobile développée avec Flutter.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Développement web : HTML, CSS, JavaScript, PHP</li>
+            <li>Bases de données : MySQL</li>
+            <li>Frameworks : Symfony, Flutter</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Massamouna Kini - Portfolio BTS SIO SLAM</p>
+    </footer>
+</body>
+</html>
